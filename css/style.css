@@ -9,38 +9,39 @@ header{
     color: aliceblue;
 }
 
+/* PROFILE */
 .profile{
     min-height: 400px;
     background-color: #1ABC9B;
     color: aliceblue;
 }
 
+.box.box-img{
+    width: 200px;
+}
+
+/* hr star */
+
+.hr-star {
+    display: flex;
+}
+
+.hr-line {
+    width: 100%;
+    position: relative;
+    margin: 15px;
+    border-bottom: 16px dotted #a4c639;
+}
+
+.fa {
+    position: relative;
+    top: 3px;
+    color: #ff82db;
+}
+/* ****** */
+
 .portfolio{
     min-height: 600px;
-}
-
-.red{
-    background-color: #BB4B64;
-}
-
-.indaco{
-    background-color: #1CA5B5;
-}
-
-.black{
-    background-color: #140E0F;
-}
-
-.sky{
-    background-color: #1C83C1;
-}
-
-.blu{
-    background-color: #0F38B5;
-}
-
-.sand{
-    background-color: #CCB2A3;   
 }
 
 .about{
